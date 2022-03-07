@@ -8,4 +8,4 @@ The script takes two arguments.
 2. The amount of seconds to sleep between iterations.
 
 <h3>To run this script:</h3>
-python3 bobcat_checker.py --ip 192.168.1.1 --sleep 60
+python3 bobcat_status.py --ip 192.168.1.1 --sleep 60
