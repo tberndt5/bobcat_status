@@ -13,7 +13,7 @@ reboot_url = 'http://{}/admin/reboot'.format(args.ip)
 
 while True:
     try:
-	time.sleep(args.sleep)
         r = requests.post(reboot_url,auth=('bobcat','miner'))
+	time.sleep(args.sleep)
     except:
         print('[ERROR] Check IP address or bobcat miner power.')
